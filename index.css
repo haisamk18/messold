@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.side {
+  border-left: 3px solid grey;
+  height: 250px;
+  width: 100px;
+  float: right;
+  position: relative;
+  left: -70px;
+  padding-left: 20px;
+  top: -20px;
+}
+.side p {
+    height: 25px;
+  width: 25px;
+  border-style: solid;
+  
+  border-color:#EEEEEE;
+
+  border-radius: 50%;
+  text-align: center;
+  margin-top: -10px;
+}
+#active {
+     border-color:grey;
+}
+.fivep {
+    position: relative;
+    top: -20px;
+}
+.parent { 
+    width: 90%; 
+    position: relative;
+    top: -30px;
+    margin-bottom: 0px;
+
+
+} 
+.upper-column { 
+    float: left; 
+    width: 50%; 
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+
+} 
+.upper-column first { 
+    background-color: red; 
+    margin-left: 50%; 
+    height: 100px; 
+    background-color: red;
+    text-align: center;
+} 
+.upper-column second { 
+    margin-left: 50%; 
+    height: 100px; 
+    background-color: yellow; 
+     border-right: 10px solid black;
+  }
+
+.highfont {
+    font-size: 5em;
+    position: relative;
+    top: -40px;
+    color: #B5A98E;
+
+}
+.lowerfont {
+    font-size: 8px;
+}
+.parawidth {
+    margin-top: 0px;
+    width: 90px;
+    margin: 0 auto;
+    position: relative;
+    top: -60px;
+}
+.secondrow {
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    top: -40px;
+}
+.full {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0px;
+    position: relative;
+    top: -30px;
+
+}
+.half {
+    width: 50%;
+    float: left;
+    
+}
+.makemiddle {
+    width: 300px;
+    margin-left: 230px;
+    }
+.middlerow {
+    width: 90%;
+}
+#border-right {
+    border-right: 5px solid black;
+}
+#border {
+    border-right:  5px solid black;
+}
+}
